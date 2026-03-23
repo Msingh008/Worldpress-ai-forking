@@ -8,7 +8,7 @@ const fs = require( 'fs' );
 const path = `${ process.cwd() }/.wp-env.override.json`;
 
 // eslint-disable-next-line import/no-dynamic-require
-const config = fs.existsSync( path ) ? require( path ) : {};
+//const config = fs.existsSync( path ) ? require( path ) : {};
 
 config.plugins = [
 	'.',
